@@ -1,6 +1,6 @@
 # size 169 tc 7.0  java 7.0
-FROM alpine:latest
-RUN apk add openjdk7    
+FROM ubuntu:latest
+RUN apt install default-jdk    
 RUN java -version
 
 RUN mkdir /usr/local/tomcat
