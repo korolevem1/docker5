@@ -1,6 +1,6 @@
 # size 169 tc 7.0  java 7.0
 FROM ubuntu:latest
-RUN apt-get install default-jdk -y    
+RUN apt-get update && apt-get install default-jdk -y    
 RUN java -version
 
 RUN mkdir /usr/local/tomcat
