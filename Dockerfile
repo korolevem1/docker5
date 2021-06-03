@@ -13,7 +13,7 @@
 
 
 FROM alpine:latest
-RUN apk add openjdk8
+RUN apk add openjdk7
 RUN java -version
 
 RUN mkdir /usr/local/tomcat
