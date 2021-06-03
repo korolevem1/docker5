@@ -1,6 +1,6 @@
 # size 169 tc 6.0  java 6.0
 FROM alpine:latest
-RUN apk add openjdk6
+RUN apk add openjdk7
 RUN java -version
 
 RUN mkdir /usr/local/tomcat
