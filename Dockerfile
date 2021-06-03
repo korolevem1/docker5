@@ -8,4 +8,4 @@ RUN wget https://mirror.linux-ia64.org/apache/tomcat/tomcat-9/v9.0.46/bin/apache
 RUN cd /tmp && tar xvfz apache-tomcat-9.0.46.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-9.0.46/* /usr/local/tomcat/
 EXPOSE 8080
-CMD /usr/local/tomcat/bin/catalina.sh runs
+CMD /usr/local/tomcat/bin/catalina.sh run
